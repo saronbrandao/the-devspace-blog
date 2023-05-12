@@ -39,9 +39,9 @@ const Post = ({ post, compact }) => {
             Read More
           </Link>
           <div className="flex items-center">
-            <img
+            <Image
               src={post.frontmatter.author_image}
-              alt=""
+              alt="Author Image"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
             />
           </div>
