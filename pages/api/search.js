@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-export default (req, res) => {
+const search = (req, res) => {
   let posts;
 
   if (process.env.NODE_ENV === 'production') {
@@ -38,3 +38,5 @@ export default (req, res) => {
 
   res.status(200).json(JSON.stringify(results));
 };
+
+export default search;
