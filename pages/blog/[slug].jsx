@@ -21,7 +21,13 @@ const PostPage = ({
           <h1 className="text-5xl mb-7">{title}</h1>
           <CategoryLabel>{category}</CategoryLabel>
         </div>
-        <Image src={cover_image} alt="Cover Image" className="w-full rounded" />
+        <Image
+          src={cover_image}
+          alt="Cover Image"
+          className="w-full rounded"
+          width={500}
+          height={400}
+        />
 
         <div className="flex justify-between items-center bg-gray-100 p-2 my-8">
           <div className="flex items-center">
@@ -29,6 +35,8 @@ const PostPage = ({
               src={author_image}
               alt="Author Image"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+              width={500}
+              height={400}
             />
             <h4>{author}</h4>
           </div>
