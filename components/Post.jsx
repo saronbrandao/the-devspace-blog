@@ -43,6 +43,8 @@ const Post = ({ post, compact }) => {
               src={post.frontmatter.author_image}
               alt="Author Image"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+              height={100}
+              width={100}
             />
           </div>
         </div>
