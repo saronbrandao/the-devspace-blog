@@ -8,7 +8,7 @@ const Post = ({ post, compact }) => {
       {!compact && (
         <Image
           src={post.frontmatter.cover_image}
-          alt=""
+          alt="Cover Image"
           height={420}
           width={600}
           className="mb-4 rounded"
