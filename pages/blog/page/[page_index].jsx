@@ -4,7 +4,7 @@ import path from 'path';
 import Post from '@/components/Post';
 import Pagination from '@/components/Pagination';
 import { POSTS_PER_PAGE } from '@/config/index';
-import { getPosts } from '@/lib/posts';
+import getPosts from '@/lib/posts';
 import CategoryList from '@/components/CategoryList';
 
 export default function BlogPage({ posts, numPages, currentPage, categories }) {
