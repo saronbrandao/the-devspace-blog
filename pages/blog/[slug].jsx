@@ -25,8 +25,13 @@ const PostPage = ({
           src={cover_image}
           alt="Cover Image"
           className="w-full rounded"
+<<<<<<< HEAD
           height={420}
           width={600}
+=======
+          width={500}
+          height={400}
+>>>>>>> updates
         />
 
         <div className="flex justify-between items-center bg-gray-100 p-2 my-8">
@@ -35,8 +40,13 @@ const PostPage = ({
               src={author_image}
               alt="Author Image"
               className="mx-4 w-10 h-10 object-cover rounded-full hidden sm:block"
+<<<<<<< HEAD
               height={420}
               width={600}
+=======
+              width={500}
+              height={400}
+>>>>>>> updates
             />
             <h4>{author}</h4>
           </div>
