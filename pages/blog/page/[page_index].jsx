@@ -10,22 +10,18 @@ import CategoryList from '@/components/CategoryList';
 export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
-      <div className="flex justify-between">
-        <div className="w-3/4 mr-10">
+      <div className="flex flex-col lg:flex-row justify-between">
+        <div className="mr-10 sm:w-full lg:w-3/4">
           <Pagination currentPage={currentPage} numPages={numPages} />
-
           <h1 className="text-5xl border-b-4 p-5 font-bold">Blog</h1>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid lg:grid-cols-2 gap-5">
             {posts.map((post, index) => (
               <Post key={index} post={post} />
             ))}
           </div>
-
           <Pagination currentPage={currentPage} numPages={numPages} />
         </div>
-
-        <div className="w-1/4">
+        <div className="sm:w-full lg:w-1/4 order-first lg:order-last">
           <CategoryList categories={categories} />
         </div>
       </div>

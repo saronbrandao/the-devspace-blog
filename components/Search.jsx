@@ -39,7 +39,6 @@ export default function Search() {
           </form>
         </div>
       </div>
-
       <SearchResults results={searchResults} />
     </div>
   );
