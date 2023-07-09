@@ -19,7 +19,7 @@ const About = () => {
           <div>
             <h3 className="text-2xl mb-5">The DevSpace Blog</h3>
             <p className="mb-3">
-              My name is Saron Brandao, and I'm a web developer located in
+              My name is Saron Brandao, and I&apos;m a web developer located in
               Berlin, Germany. I have created this blog as a part of my
               portfolio to exhibit my skills and expertise in web development.
               While the content on this blog is entirely fictional, it reflects
