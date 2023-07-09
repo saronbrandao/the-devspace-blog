@@ -2,7 +2,7 @@
 title: 'Forms and Input Validation'
 date: 'May 7, 2023'
 excerpt: 'In this article we will look at some of the new features offered in version 8 of PHP'
-cover_image: '/images/posts/event-handling-and-asynchronous-programming.webp'
+cover_image: '/images/posts/forms-and-input-validation.webp'
 category: 'HTML'
 author: 'Saron Brandao'
 author_image: '/images/avatar.webp'
