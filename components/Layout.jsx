@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 export default function Layout({ title, keywords, description, children }) {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Head>
         <title>{title}</title>
         <meta name="keywords" content={keywords} />

@@ -2,7 +2,7 @@
 title: 'JavaScript Basics'
 date: 'May 7, 2023'
 excerpt: 'JavaScript is a versatile programming language that powers dynamic and interactive web pages'
-cover_image: '/images/posts/introduction-to-react.webp'
+cover_image: '/images/posts/javascript-basics.webp'
 category: 'JavaScript'
 author: 'Saron Brandao'
 author_image: '/images/avatar.webp'

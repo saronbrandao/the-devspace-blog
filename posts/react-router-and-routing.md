@@ -3,7 +3,7 @@ title: 'React Router and Routing'
 date: 'May 4, 2023'
 excerpt: 'Understanding how to implement client-side routing in React using React Router'
 cover_image: '/images/posts/react-router-and-routing.webp'
-category: 'HTML'
+category: 'REACT'
 author: 'Saron Brandao'
 author_image: '/images/avatar.webp'
 ---

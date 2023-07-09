@@ -8,6 +8,13 @@ import CategoryLabel from '@/components/CategoryLabel';
 import sanitizeHtml from 'sanitize-html';
 import Image from 'next/image';
 
+// Preventing erroneous warnings:
+marked.use({
+  langPrefix: '',
+  mangle: false,
+  headerIds: false,
+});
+
 const PostPage = ({
   frontmatter: { title, category, date, cover_image, author, author_image },
   content,
@@ -16,7 +23,12 @@ const PostPage = ({
   return (
     <Layout title={title}>
       <div className="w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6">
-        <Link href="/blog">Go Back</Link>
+        <Link
+          href="/blog"
+          className="inline-block py-2 px-3 leading-tight bg-white border border-gray-300 text-gray-800 mr-1 hover:bg-gray-200 cursor-pointer"
+        >
+          Go Back
+        </Link>
         <div className="flex justify-between items-center mt-4">
           <h1 className="text-5xl mb-7">{title}</h1>
           <CategoryLabel>{category}</CategoryLabel>
@@ -45,9 +57,17 @@ const PostPage = ({
 
         <div className="blog-text mt-2">
           <div
-            dangerouslySetInnerHTML={{ __html: sanitizeHtml(marked(content)) }}
+            dangerouslySetInnerHTML={{
+              __html: sanitizeHtml(marked.parse(content)),
+            }}
           ></div>
         </div>
+        <Link
+          href="/blog"
+          className="inline-block py-2 px-3 leading-tight bg-white border border-gray-300 text-gray-800 mr-1 hover:bg-gray-200 cursor-pointer"
+        >
+          Go Back
+        </Link>
       </div>
     </Layout>
   );

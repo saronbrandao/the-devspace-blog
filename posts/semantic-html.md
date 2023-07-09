@@ -2,7 +2,7 @@
 title: 'Semantic HTML'
 date: 'May 4, 2023'
 excerpt: 'Semantic HTML plays a crucial role in web development as it enhances the structure'
-cover_image: '/images/posts/react-router-and-routing.webp'
+cover_image: '/images/posts/semantic-html.webp'
 category: 'HTML'
 author: 'Saron Brandao'
 author_image: '/images/avatar.webp'

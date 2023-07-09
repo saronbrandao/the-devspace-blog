@@ -11,7 +11,7 @@ export default function BlogPage({ posts, numPages, currentPage, categories }) {
   return (
     <Layout>
       <div className="flex flex-col lg:flex-row justify-between">
-        <div className="mr-10 sm:w-full lg:w-3/4">
+        <div className="mr-10 w-full lg:w-3/4">
           <h1 className="text-5xl border-b-4 p-5 font-bold">Blog</h1>
           <Pagination currentPage={currentPage} numPages={numPages} />
           <div className="grid lg:grid-cols-2 gap-5">
