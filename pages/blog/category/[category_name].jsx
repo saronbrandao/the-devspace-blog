@@ -22,7 +22,7 @@ export default function CategoryBlogPage({ posts, categoryName, categories }) {
         </div>
 
         <div className="sm:w-full lg:w-1/4 order-first lg:order-last">
-          <CategoryList categories={categories} />
+          <CategoryList categories={categories} categoryName={categoryName} />
         </div>
       </div>
     </Layout>

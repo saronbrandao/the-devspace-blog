@@ -14,7 +14,7 @@ export default function Layout({ title, keywords, description, children }) {
       </Head>
       <Header />
       <Search />
-      <main className="container mx-auto my-7">{children}</main>
+      <main className="container mx-auto sm:my-7">{children}</main>
       <Footer />
     </div>
   );
