@@ -16,7 +16,6 @@ export default function Search() {
         setSearchResults(JSON.parse(results));
       }
     };
-
     getResults();
   }, [searchTerm]);
 
@@ -34,12 +33,11 @@ export default function Search() {
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search Posts..."
             />
-
             <FaSearch className="absolute top-0 right-0 text-black mt-3 mr-4" />
           </form>
         </div>
       </div>
-      <SearchResults results={searchResults} />
+      <SearchResults results={searchResults} setSearchResults={setSearchResults} setSearchTerm={setSearchTerm} />
     </div>
   );
 }

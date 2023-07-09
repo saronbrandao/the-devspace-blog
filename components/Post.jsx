@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import CategoryLabel from './CategoryLabel';
 
-const Post = ({ post, compact }) => {
+const Post = ({ post, compact, hideSearchResults }) => {
   return (
     <div className="w-full px-10 py-6 bg-white rounded-lg shadow-md mt-6 flex flex-col justify-between">
       <div className="flex flex-col">
@@ -27,6 +27,7 @@ const Post = ({ post, compact }) => {
           <Link
             href={`/blog/${post.slug}`}
             className="text-2xl text-gray-700 fnt-bold hover:underline"
+            onClick={hideSearchResults}
           >
             {post.frontmatter.title}
           </Link>
