@@ -1,6 +1,7 @@
 # The DevSpace Blog
 
-![The DevSpace Logo](/public/images/logo.jpg)
+<img src="/public/images/logo.jpg" alt="blog logo" width="200"/>
+
 
 The DevSpace Blog is a lightweight static blog built using Next.js, Gray Matter, and Tailwind CSS. It provides a simple and efficient platform for Bloggers to share their insights, experiences, and knowledge with the community. With features like search functionality and a minimalistic design, The DevSpace offers an enjoyable reading experience for Blog enthusiasts.
 
