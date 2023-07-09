@@ -39,6 +39,7 @@ const PostPage = ({
           className="w-full rounded"
           width={500}
           height={400}
+          unoptimized={true}
         />
 
         <div className="flex justify-between items-center bg-gray-100 p-2 my-8">
