@@ -48,3 +48,10 @@ ol {
 .bg-red-600 {
   background-color: #a70b34;
 }
+
+.blog-text code {
+  display: inline-block;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-width: 100%;
+}

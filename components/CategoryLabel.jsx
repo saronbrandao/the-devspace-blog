@@ -3,8 +3,8 @@ import Link from 'next/link';
 export default function CategoryLabel({ children }) {
   const colorKey = {
     JavaScript: 'bg-orange-600',
-    Python: 'bg-red-600',
-    PHP: 'bg-amber-600',
+    HTML: 'bg-red-600',
+    REACT: 'bg-amber-600',
     CSS: 'bg-lime-600',
   };
 

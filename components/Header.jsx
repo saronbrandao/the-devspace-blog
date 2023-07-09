@@ -9,8 +9,8 @@ const Header = () => {
           href="/"
           className="flex md:w-1/5 title-font font-medium items-center md:justify-start mb-4 md:mb-0"
         >
-          <Image src="/images/logo.png" width={40} height={40} alt="logo" />
-          <span className="ml-3 text-xl">DevSpace</span>
+          <Image src="/images/logo.webp" width={40} height={40} alt="logo" />
+          <span className="ml-3 text-xl">The DevSpace</span>
         </Link>
         <nav className="flex flex-wrap md:s-4/5 items-center justify-end text-base md:ml-auto">
           <Link
